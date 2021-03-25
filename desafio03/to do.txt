@@ -1,0 +1,25 @@
+Objetivos 
+Escrever quatro funções com JavaScript.
+
+
+1. Crie uma função chamada getGroupMembers cuja execução deve retornar um array com todos nomes enviados, conforme exemplo abaixo:
+Envio: getGroupMembers('Niccolas', 'Fernando', 'Cristina', 'Paloma')
+Retorno: ["Niccolas", "Fernando", "Cristina", "Paloma"]
+
+2. Crie uma função chamada getFullName cuja execução aceite n parâmetros para, então, montar e retornar um nome completo (nomes separados por espaço em branco)
+Dica 1: a declaração da função deve possuir apenas um parâmetro de entrada. Para isso, utilize rest operator. 
+Dica 2: pesquise e utilize array.join para montar uma string através de um array. 
+Segue exemplos de execução:
+Envio:  getFullName('Mariane', 'Mendes', 'Alburqueque', 'Medeiros')
+Retorno: Mariane Mendes Alburqueque Medeiros
+
+3. Crie uma função chamada transform, que transforme os arrays de entrada utilizando array.map utilizando um determinado algoritmo, onde ao enviar os dados dos exemplos abaixo deve retornar os valores correspondente aos exemplos de retorno 
+Envio 01: transform([10,20,30,40,50])
+Retorno 01: [2, 3, 4, 5, 6]
+Envio02: transform([61,72,83,94])
+Retorno 02: [7.1, 8.2, 9.3, 10.4]
+
+
+4. Crie uma função chamada onlyNumbersFrom que receba números completos de boletos bancários e retorne somente os números, ou seja, remova pontos e espaços em branco.
+Envio: onlyNumbersFrom('13487 867323 iugukhlk ^^`JB354')
+Retorno: 13487867323354 
