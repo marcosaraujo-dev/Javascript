@@ -1,0 +1,23 @@
+ul,
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.buttonDelete {
+  color: white;
+  font-weight: bold;
+  background-color: darkred;
+  margin: 2px 5px;
+  border-radius: 10%;
+}
+.buttonEdit {
+  color: white;
+  font-weight: bold;
+  background-color: darkblue;
+  margin: 2px 5px;
+  border-radius: 10%;
+}

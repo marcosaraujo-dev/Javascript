@@ -1,0 +1,37 @@
+
+Desafio 01
+-----------------
+Criar um formulário com o campo de texto "nome"
+Criar uma lista inicial (via javascript)
+Atribuir essa lista no HTML
+
+Desafio 02
+--------------------
+Ao digitar um nome e apertar o enter o nome deve ser adicionado em uma lista
+A tela não deve ser recarregada, apenas adicionado o nome digitado na lista
+O novo nome deve ser exibido na ultima possição da lista no HTML.
+Ao adiconar e exibir o novo nome na lista o foco dev ficar no campo texto
+Utilizar o preventeDefault() no form para prevenir o recarregamento da página
+
+Desafio 03
+-------------------------
+Adicionar o botão de Exclusão para cada item da lista
+Ao clicar no botão excluir deve ser removido o nome da lista e a lista recarregada
+
+
+Desafio 04
+-------------------------
+Ao clicar em um nome da lista esse nome deve ser carregado no campo texto
+Após alterar o nome e apertar o Enter deve ser editado o nome que estava no campo texto
+O campo texto deve ficar vazio e ser posível adicioanar novos nomes 
+
+
+Desafio Extra
+-----------------------
+Criar uma tabela no html com o seguinte layout
+
+ _______________________________________
+|_______________|_______|_______|_______|
+|_______|_______|_______|       |_______|
+|       |_______________|_______|_______|
+|_______|_______|_______|_______________|
